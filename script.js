@@ -6,7 +6,7 @@ function compute() {
 
     // check if principal is 0 or less then give alert and focus to principal
     if (principal <= 0) {
-        alert("Principal can not be negative or zero!");
+        alert("Enter a positive number");
         document.getElementById("principal").focus();
         return 0;
     }
