@@ -12,11 +12,32 @@ h1{
 .maindiv {
     background-color: white;
     color: black;
-    width: 300px;
+    width: 480px;
     padding: 20px;
     border-radius: 25px;
 
     /* margins make div to appear in center */
     margin-left: auto;
     margin-right: auto;
+}
+
+input, select {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#principal {
+    margin-left: 60px;
+}
+
+#rate {
+    margin-left: 80px;
+}
+
+#years {
+    margin-left: 28px;
+}
+
+footer {
+    margin-top: 2rem;
 }
