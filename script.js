@@ -4,7 +4,7 @@ function compute() {
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
 
-    // check if principal is 0 or less then give alert and focus to principal
+    // check if principal is 0 or less then 0 give alert and focus to principal
     if (principal <= 0) {
         alert("Enter a positive number");
         document.getElementById("principal").focus();
